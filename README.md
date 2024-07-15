@@ -1,6 +1,6 @@
 # Invoice Generator
 
-Invoice Generator is a web-based invoice generator application built with Next.js 13, TypeScript, React, and the Shadcn UI library. It provides an easy way to create and manage professional invoices.
+Invoice Generator is a web-based generator application built with Next.js 13, TypeScript, React, and the Tailwind. It provides an easy way to create and manage professional invoices.
 
 ![Invoice Generator Website image](/public/assets/img/Invoice Generator-web-app.png)
 
