@@ -2,7 +2,7 @@
 
 Invoice Generator is a web-based generator application built with Next.js 13, TypeScript, React, and the Tailwind. It provides an easy way to create and manage professional invoices.
 
-![Invoice Generator Website image](/public/assets/img/Invoice Generator-web-app.png)
+![Invoice Generator Website image](/public/invoice-generator.png)
 
 ## Table of Contents
 
@@ -42,7 +42,7 @@ Invoice Generator is a web-based generator application built with Next.js 13, Ty
 
 ## Demo
 
-Visit the [live demo](https://Invoice Generator.vercel.app) to see Invoice Generator in action.
+Visit the [live demo](https://invoice-generator-app-ten.vercel.app/) to see Invoice Generator in action.
 
 ## Getting Started
 
@@ -57,8 +57,8 @@ Follow these instructions to get Invoice Generator up and running on your local 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/aliabb01/Invoice Generator.git
-   cd Invoice Generator
+   git clone https://github.com/devesperanz/Invoice-generator.git Generator.git
+   cd Invoice-generator
    ```
 
 2. Install dependencies
