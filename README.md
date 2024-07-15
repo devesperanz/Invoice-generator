@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Invoice Generator
+
+Invoice Generator is a web-based invoice generator application built with Next.js 13, TypeScript, React, and the Shadcn UI library. It provides an easy way to create and manage professional invoices.
+
+![Invoice Generator Website image](/public/assets/img/Invoice Generator-web-app.png)
+
+## Table of Contents
+
+- [InvoiceGenerator](#Invoice Generator)
+  - [Table of Contents](#table-of-contents)
+  - [Technologies](#technologies)
+    - [Core Technologies](#core-technologies)
+    - [Additional Dependencies](#additional-dependencies)
+  - [Roadmap](#roadmap)
+  - [Demo](#demo)
+  - [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+  - [License](#license)
+
+## Technologies
+
+### Core Technologies
+
+- **Next.js:** React framework for SSR and client-side navigation.
+- **TypeScript:** JavaScript superset with static typing.
+- **react-toastify:** UI library to add notifications to your app with ease.
+- **Tailwind:** Utility-first CSS framework.
+- **React Hook Form:** Form management for React.
+- **React icons:** icons used within the project.
+
+## Roadmap
+
+- [x] **Easily Create Invoices:** Utilize a simple form to quickly generate invoices.
+- [x] **Save for Future Access:** Store your invoices directly in your browser for easy retrieval.
+- [x] **Retrieve Invoices Effortlessly:** Load and access invoices seamlessly from your saved list.
+- [x] **Template Variety:** Choose from multiple (currently 2) invoice templates.
+- [x] **Live Preview:** Edit the form and see changes in real-time with the live preview feature.
+- [ ] **I18N Support:** i18n support with multiple languages for UI and templates.
+- [ ] **Themeable Templates:** Select a theme color for the invoice
+- [ ] **Custom Inputs:** Define your own inputs that are missing from the default invoice builder. (Ex: VAT number)
+
+## Demo
+
+Visit the [live demo](https://Invoice Generator.vercel.app) to see Invoice Generator in action.
 
 ## Getting Started
 
-First, run the development server:
+Follow these instructions to get Invoice Generator up and running on your local machine.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Node.js and npm installed on your system.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Clone the repository:
 
-## Learn More
+   ```bash
+   git clone https://github.com/aliabb01/Invoice Generator.git
+   cd Invoice Generator
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Install dependencies
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. Start development server
 
-## Deploy on Vercel
+   ```bash
+   npm run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Open your web browser and access the application at [http://localhost:3000](http://localhost:3000)
+<!-- LICENSE -->
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
