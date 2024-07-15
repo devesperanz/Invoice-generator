@@ -139,11 +139,14 @@ const InvoiceForm = forwardRef(
       name: "items",
     });
     const watchedFields = watch();
-    const debouncedSetFormData = useCallback(debounce(setFormData, 300), []);
+
+    const debouncedSetFormData = useCallback(debounce(setFormData, 300), [
+      setFormData,
+    ]);
 
     useEffect(() => {
-      debouncedSetFormData(watchedFields);
-      return () => debouncedSetFormData.cancel();
+      const debouncedFn = debouncedSetFormData(watchedFields);
+      return () => debouncedFn.cancel();
     }, [watchedFields, debouncedSetFormData]);
 
     const tabs = [
@@ -304,5 +307,5 @@ const InvoiceForm = forwardRef(
     );
   }
 );
-
+InvoiceForm.displayName = "InvoiceForm";
 export default InvoiceForm;

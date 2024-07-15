@@ -1,6 +1,6 @@
 import { Dialog } from "@headlessui/react";
 import { IoMdClose } from "react-icons/io";
-
+import Image from "next/image";
 const InvoiceModal = ({ open, close, invoiceData }: any) => {
   if (!invoiceData) return null;
 
@@ -18,7 +18,7 @@ const InvoiceModal = ({ open, close, invoiceData }: any) => {
       <div className="fixed inset-0 z-10 w-screen overflow-y-auto">
         <div className="flex min-h-full items-center justify-center p-4">
           <div className="w-full max-w-md rounded-xl bg-white p-6 shadow-lg">
-            <img src={details?.file} alt="" />
+            <Image src={details?.file} alt="" />
             <div className="flex justify-end mb-2">
               <IoMdClose
                 color="grey"
