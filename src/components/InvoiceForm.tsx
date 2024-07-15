@@ -146,7 +146,7 @@ const InvoiceForm = forwardRef(
 
     useEffect(() => {
       const debouncedFn = debouncedSetFormData(watchedFields);
-      return () => debouncedFn.cancel();
+      // return () => debouncedFn.cancel(); // <-- Potential error here
     }, [watchedFields, debouncedSetFormData]);
 
     const tabs = [
