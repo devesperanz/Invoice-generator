@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { InvoicePayloadType } from "@/types/invoice";
 
 // Variables
-export const INVOICES_API = "http://localhost:3000/api/settings";
+export const INVOICES_API = `${process.env.NEXT_PUBLIC_URL}/api/settings`;
 
 // Type for the fetched data structure
 export type InvoicesResponseType = {

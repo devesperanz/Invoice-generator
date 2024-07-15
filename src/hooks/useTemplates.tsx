@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 
 // Variables
-export const TEMPLATES_API = "http://localhost:3000/api/templates";
+export const TEMPLATES_API = `${process.env.NEXT_PUBLIC_URL}/api/templates`;
 
 // Type for the template data
 export type TemplateType = {
